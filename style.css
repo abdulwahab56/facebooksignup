@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 65.29%;
+}
+body {
+  font-family: "Frank Ruhl Libre" sans-serif;
+  background-color: #e9ecef;
+  font-weight: 400;
+  color: #555;
+  line-height: 1;
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 9px;
+  box-shadow: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.1);
+}
+.facebook-imag {
+  text-align: center;
+}
+.facebook-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  color: #222;
+  line-height: 1.6;
+  padding-top: 1.2rem;
+  letter-spacing: 0.5px;
+}
+.facebook-detail {
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 1px solid#dee2e6;
+  padding-bottom: 1.8rem;
+}
+.login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.4rem;
+  margin: 1.8rem;
+}
+.login input {
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #dee2e6;
+}
+.email {
+  grid-column: 1/ -1;
+}
+.gender {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #606770;
+  grid-column: 1/ -1;
+}
+.birth {
+  display: flex;
+  gap: 1.4rem;
+  /* margin: 1.8rem; */
+  margin: -1.2rem 1.8rem -1.2rem 1.8rem;
+}
+.bitrh-day {
+  font-size: 1.4rem;
+  /* padding-right: 4.8rem; */
+  height: 2.8rem;
+  width: 10.8rem;
+  border-radius: 6px;
+}
+.gender-log {
+  margin: 1.8rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #606770;
+}
+.text {
+  padding: 1.8rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  line-height: 1.05;
+}
+.text a:link,
+.text a:visited {
+  text-decoration: none;
+}
+.text a:hover,
+.text a:active {
+  text-decoration: none;
+  border-bottom: 1px solid #425cb2;
+}
+.btn {
+  justify-self: center;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0.6rem 5.6rem;
+  border-radius: 9px;
+  /* transition: background-color 0.3s; */
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #37b24d;
+  color: #fff;
+}
+.btn:hover,
+.btn:active {
+  background-color: #2b8a3e;
+}
+.sign {
+  text-align: center;
+}
+.sign-test {
+  font-size: 2rem;
+  color: #425cb2;
+
+  padding: 3.2rem;
+}
+.text-term {
+  padding: 0.4rem 1.8rem 1.8rem 1.8rem;
+}
